@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  line-height: 1.5; 
+  font-family: "Roboto" sans-serif;
+  background-image: url(./hinh-anh-tet-cute-2-2.jpg);
+  height: 100vh;
+  width: 100%;
+} 
+
+input {
+  appearance: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+.khung {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 5px 10px rgb(#999);
+  padding: 10px;
+}
+
+.dangnhap {
+  background-image: url(./25fec1dc877982d7dc6f48be3fdf4b43-2.jpg);
+  border-radius: 10px;
+  padding-bottom: 30%;
+  color: brown;
+  position: relative;
+  background-repeat: no-repeat;
+  font-size: 25px;
+  font-weight: 500;
+  ;
+
+
+}
+
+.thecon {
+  position: absolute;
+  font-size: 40;
+  left: 40%
+}
+
+.card {
+  padding: 10px ;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.text-label {
+  color: chartreuse;
+
+}
+.footer {
+  padding: 15px;
+}
+
+
+
+
+

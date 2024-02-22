@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1{
+    color: blueviolet;
+}
+
+form{
+    background-color: crimson;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px;
+}
+
+label{
+    display:block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] 
+
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px ;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: seagreen;
+    font-size: 20px;
+
+}
+
+
